@@ -1,0 +1,135 @@
+﻿body {
+    font-family: 'Noto Sans JP', 'Roboto', sans-serif;
+    color: #ccc;
+    background-color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #000;
+    padding: 20px 0;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.header-content {
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    padding-left: 20px; /* 左端からの余白を追加 */
+}
+
+.logo {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+header h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+main {
+    max-width: 1000px;
+    margin: 40px auto; /* ヘッダーとフッターの高さを考慮 */
+    padding: 20px;
+    padding-top: 60px; /* ヘッダーの高さを考慮して上部に余白を追加 */
+    padding-bottom: 60px; /* フッターの高さを考慮して下部に余白を追加 */
+}
+
+#hero {
+    background: url('images/top.jpg') no-repeat center center/cover;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+    position: relative;
+}
+
+.hero-content {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#overview {
+    margin-top: 20px;
+}
+
+a {
+    color: inherit;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #888;
+}
+
+.no-underline {
+    text-decoration: none;
+}
+
+section {
+    padding: 10px 0;
+}
+
+h2 {
+    color: #1e90ff;
+}
+
+h3 {
+    color: #fff;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+.table-content {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-size: 90%; /* 文字サイズを10%小さくする */
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: left;
+}
+
+footer {
+    background-color: #000;
+    padding: 10px 0;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.footer-content {
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+}
+
+img.responsive {
+    width: 100%;
+    height: auto;
+}
