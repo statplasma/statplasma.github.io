@@ -137,3 +137,24 @@ img.responsive {
 .no-wrap {
     white-space: nowrap;
 }
+
+
+
+
+/* カードの基本デザイン */
+.project-card, .project-card-alt {
+    border-radius: 6px;         /* 角を少し丸める */
+    padding: 16px;
+    margin-bottom: 20px;
+  }
+  
+  /* 1つ目のカード */
+  .project-card {
+    background-color: #444;     /* 既存の背景( #333 )より少し明るめ */
+  }
+  
+  /* 2つ目のカード */
+  .project-card-alt {
+    background-color: #3a3a3a;  /* 1つ目よりさらに僅かに暗めなどお好みで */
+  }
+  
